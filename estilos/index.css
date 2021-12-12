@@ -1,0 +1,139 @@
+#contenedor {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .4)
+}
+
+header {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 0.8em;
+    height: 25%;
+    text-align: center;
+}
+
+figure { 
+    padding: 1px;
+    margin: 1px;
+    border-image: 1px;
+     }
+
+header figure img#logonormal {
+    float:right;
+    max-width: 100px;
+    height: 100px;       
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:-100px; top:0px;}
+    100%  {left:400px; top:0px;}    
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 14, 51);
+    margin-top: 0px;
+    padding: 1px;
+    text-align:center;
+}
+nav ul#menu { padding: 5px; }
+
+nav ul#menu li {
+    display:inline-flex;
+}
+
+nav ul#menu li a {
+
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 16px 4px;
+    transition: all 500ms ease;
+}
+
+nav ul#menu li a:hover {
+    background-color:rgb(108, 169, 177);
+    color:black;
+}
+
+aside {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    background-color:rgb(108, 169, 177);
+    max-width:400px;
+    height:auto;
+    float:right;
+    padding:10px;
+    margin: 10px;   
+    text-align: center;   
+    border-radius: 20px;
+    
+}
+
+section {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    max-width: 830px;    
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;  
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;       
+}
+
+input[type=submit] {
+    margin: auto;
+    width: 50%;
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+  }
+
+input[type=submit]:hover {
+    background-color: rgb(36, 112, 122);
+    color:white;
+}
+
+section #new {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    max-width: 210px;    
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;  
+    border-radius: 20px;
+    text-align: center;
+    float:inline-start;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulacion de estilos de etiquetas</title>
+  <link type="text/css" href="../estilos/ejercicios.css" rel="stylesheet">
+  <link type="text/css" href="../estilos/despliegue.css" rel="stylesheet">  
+  <meta charset="utf-8">
+
+<style>
+body    {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  font: 18px Arial, Tahoma;
+  text-align: center;
+}
+div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+}
+</style>
+
+<script>
+  function cambiar_fondo_con_style(colorsel){
+    var color = document.getElementById(colorsel).style.backgroundColor;
+    document.body.style.backgroundColor= color;
+  }
+</script>
+</head>
+<nav>
+  <ul id="menu">
+    <li> <a href="ejercicios.html">VOLVER A LA LISTA DE EJERCICIOS</a></li> 
+  </ul>
+</nav>
+<h1>Manipulacion de Estilo de etiquetas</h1>
+<p>Da click en un recuadro para cambiar el fondo de la página</p>
+<div id = "1" style = "background-color: #999;" onclick = "cambiar_fondo_con_style(id)"></div>
+<div id = "2" style = "background-color: #333;" onclick = "cambiar_fondo_con_style(id)"></div>
+<div id = "3" style = "background-color: #666;" onclick = "cambiar_fondo_con_style(id)"></div>
+<footer>
+  Copyright © StockPrime
+</footer>
+</body>
+</html>

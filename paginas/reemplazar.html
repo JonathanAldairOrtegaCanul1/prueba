@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reemplazo de palabras</title>
+<link type="text/css" href="../estilos/index.css" rel="stylesheet">
+<link type="text/css" href="../estilos/ejercicios.css" rel="stylesheet">
+</head>
+<body onload="init();">
+  <nav>
+    <ul id="menu">
+      <li> <a href="ejercicios.html">VOLVER A LA LISTA DE EJERCICIOS</a></li> 
+    </ul>
+    </nav>
+    <h1>Reemplazo de palabras</h1>
+    <div class="body">
+        <form class="forma">
+            <div class="form">
+                <div class="textarea">
+                    <textarea placeholder='Escribe o pega algún texto' id="texto" onkeyup="resizeTextarea('test')"
+                        data-resizable="true"></textarea>
+                </div>
+                <br>
+                <div class="centrar">
+                    <input type="text" id="BuscarPalabra" placeholder='Palabra a reemplazar' class="resultado">
+                    <input type="text" id="ReemplazarPalabra" placeholder='Nueva palabra' class="resultado">
+                </div>
+                <input type="button" value="Cambiar" onClick="Reemplazar();" class="button1">
+                <input type="button" value="Limpiar" onClick="Limpiar();" class="button2">
+                <br>
+            </div>
+        </form>
+    </div>
+    <script src="../javascript/reemplazar.js"></script>
+    <footer>
+        Copyright © StockPrime
+    </footer>
+</body>
+</html>

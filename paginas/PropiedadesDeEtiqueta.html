@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Manipulacion de propiedades de etiquetas</title>
+    <link type="text/css" href="../estilos/ejercicios.css" rel="stylesheet">
+    <link type="text/css" href="../estilos/despliegue.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+          <li> <a href="ejercicios.html">VOLVER A LA LISTA DE EJERCICIOS</a></li> 
+        </ul>
+      </nav>
+      <h1>Manipulacion de Propiedades de etiquetas</h1>
+
+    <script type="text/javascript">
+ 
+      function cambiar () {
+       document.getElementById('matrix').src = "imagen2.png";
+      }
+      
+      function volver () {
+       document.getElementById('matrix').src = "programacion-web.jpg";
+      }
+      
+     </script>
+     
+     <section>
+      <section id="new3">
+        <fieldset>
+        <legend>
+        <h2>Cambiar Imagen</h2>
+        </legend>
+        <p>
+          <a class="vinculo" href="#" onMouseOver="cambiar();">Al pasar sobre mi cambiará la imagen</a>
+        </p>
+        <img src="programacion-web.jpg" id="matrix" style="width: 600px;"/>
+        <p>
+          <a href="#" class="vinculo" onMouseOver="volver();">Al pasar sobre mi volverá la imagen original</a>                    
+        </fieldset>
+      </section>
+    </section>
+
+    <footer>
+      Copyright © StockPrime
+    </footer>
+</body>
+</html>

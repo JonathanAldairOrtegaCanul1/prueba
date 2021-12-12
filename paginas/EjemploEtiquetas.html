@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulacion de contenido de etiquetas</title>
+  <link type="text/css" href="../estilos/ejercicios.css" rel="stylesheet">
+  <link type="text/css" href="../estilos/despliegue.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+      <ul id="menu">
+        <li> <a href="ejercicios.html">VOLVER A LA LISTA DE EJERCICIOS</a></li> 
+      </ul>
+    </nav>
+    <h1>Manipulacion de contenido de etiquetas</h1>
+    <body>
+
+      <section>
+
+        <div id="example1">
+        </div>
+      <p id="texto1">Este texto te enseña el link de la asignatura de la plataforma moddle</p>
+      <button id="myBtn" class="button3">Pulsa aquí para ver el link</button>
+    <script>
+    document.getElementById("myBtn").addEventListener("click", function() {
+      alert("https://moodle.valladolid.tecnm.mx/course/view.php?id=142");
+    });
+    </script>
+      <p id="texto2">¿Que es Programación Web?: </p>   
+      <button onclick="elemento2.innerHTML += texto2" class="button3">Pulsa aquí.</button>
+    
+      <p id="texto3">Historia: </p>
+      
+      <button onclick="elemento3.innerHTML += texto3" class="button3">Pulsa aquí</button>
+      <script type="text/javascript">
+      //lectura del elemento 1
+        elemento1 = document.getElementById("texto1")
+        contenido1 = elemento1.innerHTML
+      //sustituir el elemento 2. El último paso está en la instrucción onclick
+        var texto2 ="Permite la creación de sitios dinámicos en Internet. Esto se consigue generando los contenidos del sitio a través de una base de datos mediante lenguajes de programación Web. Dominando la programación Web podremos crear sitios dinámicos como periódicos digitales o tiendas virtuales."
+        elemento2 = document.getElementById("texto2")
+      //Ampliar el elemento 3. El último paso en la instrucción onclick
+        var texto3 = "Este lenguaje de programación Web fue inventado por Tim Berners-Lee en 1986. El HTML combina el concepto de Hipertexto, que permite conectar dos elementos entre si, y el SGML (Lenguaje Estándar de Marcación General) que permite colocar etiquetas o marcas en un texto para indicar como queremos que ese documento se visualice."
+       
+        var elemento3 = document.getElementById("texto3")
+      </script>
+
+      </section>
+        
+    </body>
+      
+    <footer>
+      Copyright © StockPrime
+    </footer>
+</body>
+</html>

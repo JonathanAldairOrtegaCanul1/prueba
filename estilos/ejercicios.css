@@ -1,0 +1,144 @@
+h1 {
+    text-align: center;
+}
+
+.body {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+textarea {
+    text-align: justify;
+    font-size: 120%;
+    border-radius: 10px;
+    outline: 0px;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea:focus {
+  border: 3px solid #555;
+}
+
+.centrar {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: rgb(121, 196, 121);
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color:#fff; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin:  10px auto;
+    cursor: pointer;
+    margin-right: 30px;
+    text-align: center;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.button2 {
+    background-color: rgb(243, 92, 92);
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color:#fff; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin:  10px auto;
+    cursor: pointer;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.button3 {
+  background-color: rgb(121, 196, 121);
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  border:none;
+  color:#fff; 
+  border-radius: 4px;
+  font-size: 16px;
+  margin:  10px auto;
+  cursor: pointer;
+  margin-right: 30px;
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.resultado
+{
+  width: 255px;
+  border-radius: 10px;
+  outline: 0px;
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Pinyon Script', cursive;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.calculadora{
+  display:block;
+  margin:0 auto;
+  background-color:#ffffff;
+  width:300px;
+  height:500px;
+}
+.calculadora td button{
+  display:block;
+  width:70px;
+  height: 70px;
+  font-size: 25px;
+  background-color:#3699d3;
+  color:#fff;
+}
+
+#resultado{
+  display:block;
+  color:#fff;
+  text-align: center;
+  font-size: 40px;
+  width:300px;
+  height: 60px;
+  background: rgb(0, 14, 51);
+}
+h1 {
+text-align: center;
+}
+
+.numeros{
+  margin:0 auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  width: 479px; 
+  height: 698px;
+  margin-bottom: 20px;
+  background: rgb(0, 14, 51);
+  color: #fff;
+}
+
+tbody td{
+  border: 1px solid rgb(255, 255, 255);
+}
